@@ -14,6 +14,9 @@ class Movie(object):
         :param title: The name of the movie
         :param trailer: URL of youtube video for watch the trailer
         :param art: URL of an advertising image
+        :param director : The name of the director
+        :param writers : Writers author of the movie script
+        :param stars : Actors who plays the main characters of the movie
         """
         self.trailer_youtube_url = trailer
         self.title = title
